@@ -1,0 +1,29 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+# Line length: might feel like a personal preference,
+# but most code style books across multiple languages
+# suggest concise columns for reability. In fact,
+# courses on speed reading support this requirement.
+# https://www.codereadability.com/maximum-line-length/
+max_line_length = 80
+quote_type = double
+
+[*.md]
+# Markdown files may be formatted with specific whitespace
+trim_trailing_whitespace = false
+tab_width = 4
+
+[{Makefile,makefile,**.mk}]
+# GNU Make requires tabs for indentation
+indent_style = tab
+indent_size = 4
