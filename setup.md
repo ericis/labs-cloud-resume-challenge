@@ -18,6 +18,7 @@ After enabling WSL on Windows 11, Debian was installed via the Microsoft Store. 
 - `az` Azure CLI
 - `code` Visual Studio Code
 - `firefox` Browser
+- `git-town` Source control developer utilities
 - `google-chrome` Browser
 - `oh-my-zsh` Shell tools
 
